@@ -1,0 +1,17 @@
+
+@mixin etiqueta{
+  margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-family: "Oswald",sans-serif;
+	font-weight: 500;
+	line-height: 1.2;
+	color: #fff;
+}
+
+@mixin fondo($mimagen){
+  background-size: cover;
+	overflow: hidden;
+	position: relative;
+	z-index: 99;
+	background-image: linear-gradient(to right, rgba(4, 8, 15, 0.952), rgba(1, 2, 5, 0.87)), url($mimagen);
+}
