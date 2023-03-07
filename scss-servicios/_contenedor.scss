@@ -1,0 +1,61 @@
+@use 'mixin';
+
+
+
+
+.section {
+	padding: 40px 0 60px;
+}
+.contenedor {
+	margin: auto;
+	overflow: hidden;
+	max-width: 80%;
+	.contenidos {
+		padding: 5px 10px;
+		width: 100%;
+		float: left;
+		.cajas {
+			text-align: center;
+			vertical-align: top;
+			padding: 5px 10px;
+			margin: auto;
+			width: 100%;
+			
+
+      justify-content: center;
+			.parrafo {
+				font-size: 14px;
+				letter-spacing: 1px;
+				text-align: justify;
+			}
+			.boton {
+				display: inline-block;
+				position: relative;
+				bottom: 6em;
+				right: 0em;
+				padding: 1em 1.5em;
+			}
+		}
+		.titulo {
+			font-size: 25px;
+			text-align: center;
+			color: #EB1616;
+			padding: 20px;
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+	}
+}
+.ba {
+  @include mixin.fondo('../img/P.jpg');
+	.contenedor {
+		padding: 10px 0 40px;
+	}
+}
+.micar {
+
+  @include mixin.fondo('../img/1.jpg');
+	.contenedor {
+		padding: 14px 0 8px;
+	}
+}
