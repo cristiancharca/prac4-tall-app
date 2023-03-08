@@ -1,0 +1,20 @@
+.barretos {
+  background-color: aqua;
+  position: absolute;
+  left: 0%;
+  top: 300.922px;
+}
+.text-primary {
+  color: #EB1616 !important;
+}
+
+@media (min-width: 576px){
+  .barretos {
+    flex: 0 0 auto;
+    width: 50%; 
+    background-color: rgb(255, 0, 242);
+}
+.text-primary {
+  color: #2250e6 !important;
+}
+}
