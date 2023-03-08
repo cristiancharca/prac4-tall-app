@@ -1,0 +1,13 @@
+.serv {
+    background-color: aqua;
+    position: absolute;
+    left: 0%;
+    top: 300.922px;
+  }
+  @media (min-width: 576px){
+    .serv {
+        background-color: aliceblue;
+      flex: 0 0 auto;
+      width: 50%;
+  }
+  }
