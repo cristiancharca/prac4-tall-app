@@ -15,3 +15,20 @@
 	z-index: 99;
 	background-image: linear-gradient(to right, rgba(4, 8, 15, 0.952), rgba(1, 2, 5, 0.87)), url($mimagen);
 }
+
+@mixin movil{
+	@media screen and (max-width: 576px){
+		@content;
+	}
+}
+
+@mixin tablet{
+	@media screen and (max-width: 768px){
+		@content;
+	}
+}
+@mixin destok{
+	@media screen and (max-width: 1025px){
+		@content;
+	}
+}

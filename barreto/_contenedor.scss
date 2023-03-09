@@ -59,3 +59,12 @@
 		padding: 14px 0 8px;
 	}
 }
+
+@media (min-width: 576px){
+	.ba {
+		@include mixin.fondo('../img/pr.webp');
+		.contenedor {
+			padding: 10px 0 40px;
+		}
+	}
+}
