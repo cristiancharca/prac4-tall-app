@@ -1,0 +1,240 @@
+.niels {
+  background-color: rgb(39, 73, 73);
+}
+@media (max-width: 700px) {
+  .niels .contenedor {
+    margin: auto;
+    overflow: hidden;
+    max-width: 80%;
+    background-color: #8b08a5;
+  }
+  .niels .contenedor .contenidos {
+    padding: 5px 10px;
+    width: 100%;
+    float: left;
+  }
+  .niels .contenedor .contenidos .cajas {
+    text-align: center;
+    vertical-align: top;
+    padding: 5px 10px;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .niels .contenedor .contenidos .cajas .parrafo {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+  }
+  .niels .contenedor .contenidos .cajas .boton {
+    display: inline-block;
+    position: relative;
+    bottom: 6em;
+    right: 0em;
+    padding: 1em 1.5em;
+  }
+  .niels .contenedor .contenidos .titulo {
+    font-size: 25px;
+    text-align: center;
+    color: #8b08a5;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+
+.service-item .btn {
+  position: absolute;
+  right: -50px;
+  bottom: -50px;
+  width: 50px;
+  height: 50px;
+  color: var(--primary);
+  background: #000;
+  opacity: 0;
+}
+.service-item:hover .btn {
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+}
+
+.team-item .team-img::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.85);
+  transition: 0.5s;
+}
+.team-item .team-img::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(42, 233, 17, 0.85);
+  transition: 0.5s;
+  left: auto;
+  right: 0;
+}
+.team-item .team-img .team-social {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  z-index: 3;
+  opacity: 0;
+}
+.team-item:hover .team-img::before {
+  width: 50%;
+}
+.team-item:hover .team-img::after {
+  width: 50%;
+}
+.team-item:hover .team-img .team-social {
+  transition-delay: 0.3s;
+  opacity: 1;
+}
+.team-item .team-social .btn {
+  display: inline-flex;
+  margin: 0 3px;
+  color: var(--primary);
+  background: var(--dark);
+}
+.team-item .team-social .btn:hover {
+  color: #FFFFFF;
+  background: var(--primary);
+}
+
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: none;
+  padding: 0;
+  text-align: left;
+  color: var(--light);
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+.footer .btn.btn-link::before {
+  position: relative;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+.footer .btn.btn-link:hover {
+  color: var(--primary);
+  letter-spacing: 1px;
+  box-shadow: none;
+}
+.footer .copyright {
+  padding: 1.5rem;
+  font-size: 15px;
+  background: var(--dark);
+}
+.footer .copyright a {
+  color: var(--light);
+}
+.footer .copyright a:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 500px) {
+  .contenedor {
+    margin: auto;
+    overflow: hidden;
+    max-width: 80%;
+    color: #8b08a5;
+  }
+  .contenedor .contenidos {
+    padding: 5px 10px;
+    width: 100%;
+    float: left;
+    color: #8b08a5;
+  }
+  .contenedor .contenidos .cajas {
+    text-align: center;
+    vertical-align: top;
+    padding: 5px 10px;
+    margin: auto;
+    width: 100%;
+    color: #8b08a5;
+    justify-content: center;
+  }
+  .contenedor .contenidos .cajas .parrafo {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #8b08a5;
+  }
+  .contenedor .contenidos .cajas .boton {
+    display: inline-block;
+    position: relative;
+    bottom: 6em;
+    right: 0em;
+    padding: 1em 1.5em;
+    color: #8b08a5;
+  }
+  .contenedor .contenidos .titulo {
+    font-size: 25px;
+    text-align: center;
+    color: #8b08a5;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+@media (max-width: 700px) {
+  .niels .contenedor {
+    margin: auto;
+    overflow: hidden;
+    max-width: 80%;
+    background-color: #8b08a5;
+  }
+  .niels .contenedor .contenidos {
+    padding: 5px 10px;
+    width: 100%;
+    float: left;
+  }
+  .niels .contenedor .contenidos .cajas {
+    text-align: center;
+    vertical-align: top;
+    padding: 5px 10px;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .niels .contenedor .contenidos .cajas .parrafo {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+  }
+  .niels .contenedor .contenidos .cajas .boton {
+    display: inline-block;
+    position: relative;
+    bottom: 6em;
+    right: 0em;
+    padding: 1em 1.5em;
+  }
+  .niels .contenedor .contenidos .titulo {
+    font-size: 25px;
+    text-align: center;
+    color: #8b08a5;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+
+/*# sourceMappingURL=contactosniels.css.map */

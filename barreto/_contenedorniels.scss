@@ -1,0 +1,46 @@
+@use 'mixin';
+
+
+
+
+@media (max-width: 700px) {
+    .niels .contenedor {
+      margin: auto;
+      overflow: hidden;
+      max-width: 80%;
+      background-color: #8b08a5;
+    }
+    .niels .contenedor .contenidos {
+      padding: 5px 10px;
+      width: 100%;
+      float: left;
+    }
+    .niels .contenedor .contenidos .cajas {
+      text-align: center;
+      vertical-align: top;
+      padding: 5px 10px;
+      margin: auto;
+      width: 100%;
+      justify-content: center;
+    }
+    .niels .contenedor .contenidos .cajas .parrafo {
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-align: justify;
+    }
+    .niels .contenedor .contenidos .cajas .boton {
+      display: inline-block;
+      position: relative;
+      bottom: 6em;
+      right: 0em;
+      padding: 1em 1.5em;
+    }
+    .niels .contenedor .contenidos .titulo {
+      font-size: 25px;
+      text-align: center;
+      color: #8b08a5;
+      padding: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
